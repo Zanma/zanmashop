@@ -1,6 +1,8 @@
 import React from "react";
 
 const Dashboard = ({ product }) => {
+  console.log(product);
+
   return (
     <div className="container mx-auto p-4">
       <div className="flex flex-wrap -mx-2">
